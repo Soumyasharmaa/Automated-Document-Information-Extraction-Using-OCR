@@ -16,7 +16,7 @@ import io
 sns.set(style="whitegrid")
 
 # Initialize the EasyOCR reader
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['en'],verbose = False)
 
 # Streamlit app title
 st.title("Document Information Extraction Using OCR")
